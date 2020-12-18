@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+.full-wrapper {
+  width: 100%;
+  height: 490px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    url("../img/slide01.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.nav-bar {
+  width: inherit;
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+
+.nav-bar h3 {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 19px;
+  color: #bebdbd;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.nav-bar h3 span {
+  font-size: 21px;
+  text-transform: capitalize;
+  font-weight: 100 !important;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+.nav-bar a span {
+  float: right;
+  padding-right: 20px;
+  text-transform: capitalize;
+  font-size: 19px;
+  color: #ffffff;
+  line-height: 33px;
+}
+a span {
+  font-family: "Poppins", sans-serif;
+}
+.banner p {
+  font-size: 19px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+.banner hr {
+  width: 24%;
+  margin: 0 auto;
+  size: 1px;
+  /* margin-bottom: 20px;  */
+}
+.banner p,
+h2 {
+  text-align: center;
+}
+.banner h2 {
+  font-size: 135px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.two-div {
+  width: 100%;
+  height: 730px;
+  background-color: #bdbdbdbd;
+  padding-top: 80px;
+}
+.left-div {
+  width: 48%;
+  float: left;
+  background-color: #ffffff;
+  padding-bottom: 45px;
+}
+.right-div {
+  width: 48%;
+  float: right;
+  background-color: #ffffff;
+  padding-bottom: 45px;
+}
+.left-div img {
+  width: 100%;
+}
+.right-div img {
+  width: 100%;
+}
+.left-div hr {
+  margin: 0 auto;
+  width: 45%;
+  color: #a6a6a6;
+}
+.right-div hr {
+  margin: 0 auto;
+  width: 45%;
+  color: #a6a6a6;
+}
+.top-pera {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 4px;
+  margin: 55px 0 10px 0;
+  color: #a6a6a6;
+  font-family: "Poppins", sans-serif;
+}
+
+.hed-text {
+  font-size: 25px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.pot-pera {
+  padding: 40px 45px 30px 45px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #a6a6a6;
+  word-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  margin: 5px 0 0 220px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #a6a6a6;
+  background-color: transparent;
+}
+.banner-center {
+  width: 100%;
+  height: 230px;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../img/bg.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  clear: both;
+}
+.text {
+  text-align: center;
+  padding-top: 50px;
+  color: #ffffff;
+}
+.text p {
+  margin-bottom: 15px;
+}
+.text h2 {
+  font-weight: 100;
+  margin-top: 10px;
+}
+.text hr {
+  width: 30%;
+  margin: 0 auto;
+}
+.main-pic {
+  width: 100%;
+  height: 940px;
+  background-color: #e9e9e9;
+}
+.hed-text2 {
+  font-size: 25px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.left-div1 {
+  width: 48%;
+  float: left;
+}
+.right-div2 {
+  width: 48%;
+  float: right;
+}
+.left-top {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.left-top img {
+  width: 100%;
+}
+.left-bottom {
+  width: 100%;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.left-bottom img {
+  width: 100%;
+}
+.right-top {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.right-top img {
+  width: 100%;
+}
+.right-bottom {
+  width: 100%;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.right-bottom img {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #000000;
+  clear: both;
+}
+.social-icon span {
+  margin-left: 20px;
+  position: relative;
+  top: 45px;
+  left: 580px;
+}
+.ico .fa {
+  color: #bdbdbd;
+  font-size: 25px;
+}
+.foot-text p {
+  color: #ffff;
+  font-size: 18px;
+  position: relative;
+  top: 85px;
+  left: 560px;
+}
